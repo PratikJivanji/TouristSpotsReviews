@@ -1,22 +1,23 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">TouristSpotsReviews</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/">Home</a>
-            <a class="nav-item nav-link" href="/touristSpots">TouristSpots</a>
-            <a class="nav-item nav-link" href="/touristSpots/new">New TouristSpot</a>
-        </div>
-        <div class="navbar-nav ms-auto">
-            <% if(!currentUser){ %>
-            <a class="nav-item nav-link" href="/login">Login</a>
-            <a class="nav-item nav-link" href="/register">Sign Up</a>
-            <% }else{ %>
-            <a class="nav-item nav-link" href="/logout">Logout</a>
-            <% } %>
+    <div class="container-fluid">
+        <a class="navbar-brand ps-3" href="/">TouristSpotsReviews</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/touristSpots">TouristSpots</a>
+                <a class="nav-item nav-link" href="/touristSpots/new">New TouristSpot</a>
+            </div>
+            <div class="navbar-nav ms-auto me-3">
+                <% if(!currentUser){ %>
+                <a class="nav-item nav-link" href="/login">Login</a>
+                <a class="nav-item nav-link" href="/register">Sign Up</a>
+                <% }else{ %>
+                <a class="nav-item nav-link" href="/logout">Logout</a>
+                <% } %>
+            </div>
         </div>
     </div>
 </nav>
