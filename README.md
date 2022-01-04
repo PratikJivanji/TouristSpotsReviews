@@ -1,9 +1,12 @@
 # Tourist Spots Reviews
 
-https://afternoon-castle-85051.herokuapp.com/
+A website where users can add and review tourist spots.
+
+Live Demo: https://afternoon-castle-85051.herokuapp.com/
 
 ## Tech/frameworks used
 - HTML
+- EJS
 - CSS
 - Bootstrap
 - Javasript
@@ -28,7 +31,7 @@ Then run on a terminal
 npm install
 node app.js
 ```
-Then vist http://localhost:3000/
+Then visit http://localhost:3000/
 
 ## Screenshots
 ![All tourist spots page](/images/touristSpots.png)
