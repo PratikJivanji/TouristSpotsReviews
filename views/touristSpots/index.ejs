@@ -16,20 +16,20 @@
         </div>
         <div class="col-md-8">
             <div class="card-body">
-                <h5 class="card-title"><%= touristSpot.title %></h5>
+                <h5 class="card-title text-center text-md-start"><%= touristSpot.title %></h5>
                 <p class="card-text"><%= touristSpot.description %></p>
                 <p class="card-text"><small class="text-muted"><%= touristSpot.location %></small></p>
                 <div class="d-flex">
-                <a class="btn btn-primary mx-auto mx-md-0" href="/touristSpots/<%= touristSpot._id %>">View <%= touristSpot.title %></a>
-            </div>
+                    <a class="btn btn-primary mx-auto mx-md-0" href="/touristSpots/<%= touristSpot._id %>">View <%= touristSpot.title %></a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <% }%>
 
-<div class="mb-3">
-    <a href="/touristSpots/new">Add Tourist Spot</a>
+<div class="mb-4 mt-3 d-flex justify-content-center">
+    <a href="/touristSpots/new" class="btn btn-light">Add Tourist Spot</a>
 </div>
 
 <script>

@@ -16,8 +16,8 @@ Live Demo: https://afternoon-castle-85051.herokuapp.com/
 - Mapbox
 - Cloudinary
 
-## Installation
-Add your cloudinary, mapbox and mongoDB information to an `.env` file and a secret
+## Getting Started
+Add your cloudinary, mapbox and mongoDB information and a secret to an `.env` file
 ```
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_KEY=
@@ -31,9 +31,10 @@ Then run on a terminal
 npm install
 node app.js
 ```
-Then visit http://localhost:3000/
+Visit http://localhost:3000/
 
 ## Screenshots
 ![All tourist spots page](/images/touristSpots.png)
 ![hobbiton page](/images/hobbiton.PNG)
 ![caves page](/images/caves.PNG)
+![login page](/images/login.PNG)
