@@ -29,7 +29,7 @@ SECRET=
 Then run on a terminal
 ```
 npm install
-node app.js
+npm start
 ```
 Visit http://localhost:3000/
 
